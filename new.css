@@ -1,0 +1,15 @@
+li {font-size: 30px;}
+h1 {font-size: 50px;}
+ol {color: red;}
+ul {color: blue;}
+
+a {font-size: 50px
+}
+a {color: red;
+text-decoration: underline;}
+a:hover {color:blue;
+text-decoration: none;}
+table{width: 100%;
+border-collapse:collapse ;}
+tr,td,th {text-align: center;
+border: 5px solid blue;}
