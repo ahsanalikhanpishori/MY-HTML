@@ -1,0 +1,73 @@
+
+
+.con {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    background-color:blue ;
+    border-radius: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and ( max-width:600px){
+
+.con {
+    flex-direction: column;
+}
+.bgimage {
+    flex-direction: column;
+}
+.hero {
+    flex-direction: column;
+}
+
+}
+.menu:hover{
+    background-color: rgb(233, 157, 15);
+    color: rgb(0, 255, 115);
+}
+
+
+
+
+.log {
+    width: 100px;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
+.logo {
+    flex: 70%;
+}
+.nav{
+    flex: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 35px;
+    font-size: 20px;
+    
+}
+.bgimage{
+    text-align: center;
+    background-color: blueviolet;
+    color: crimson;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.hero{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+}
